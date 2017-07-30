@@ -1,0 +1,35 @@
+// tablette
+
+@media (max-width: 1024px) {
+	header.mainMenu {
+
+		nav {
+			position:relative;
+
+			ul {
+			flex-direction:column;
+
+				.item {
+					width: 100vw;
+					display:none;
+
+					&:before, &:after {
+						content:none;
+					}
+
+					&.logo {
+						display:flex;
+						justify-content:center;
+					}
+
+					&.toggle {
+						display:block;
+						position:absolute;
+						right:1rem;
+						text-align:right;
+					}
+				}
+			}
+		}
+	}
+}

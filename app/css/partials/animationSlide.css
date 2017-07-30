@@ -1,0 +1,228 @@
+#sequence {
+  background-image: url("../images/realisations/bg-nuages.jpg");
+  background-size: cover; }
+  #sequence li:first-of-type .seq-model,
+  #sequence li:first-of-type .seq-title {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  #sequence li:first-of-type .seq-model {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    max-height: none;
+    z-index: 99; }
+    #sequence li:first-of-type .seq-model aside {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      background-image: url("../images/realisations/nautilus/nautilus-degrade.png");
+      background-size: cover;
+      z-index: 20; }
+      #sequence li:first-of-type .seq-model aside:before {
+        content: "";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100vw;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 33%);
+        display: flex; }
+    #sequence li:first-of-type .seq-model div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      max-height: 100%;
+      background-position: 0% 100%;
+      background-size: cover; }
+  #sequence li:first-of-type .seq-title {
+    z-index: 100;
+    width: 50vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column; }
+    #sequence li:first-of-type .seq-title h2 {
+      font-size: 2.5rem;
+      background: none;
+      margin: 0;
+      text-align: center;
+      text-shadow: 1px 1px 5px #000; }
+    #sequence li:first-of-type .seq-title h3:first-of-type {
+      font-size: 2rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 5px #000; }
+    #sequence li:first-of-type .seq-title h3:last-of-type {
+      font-size: 1.5rem !important;
+      color: #fff;
+      text-shadow: 1px 1px 5px #000; }
+    #sequence li:first-of-type .seq-title img {
+      margin: 0 auto; }
+  #sequence li:first-of-type:before {
+    content: none; }
+  #sequence li:first-of-type.seq-in .img1 {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation: baseImgOne 1s ease-out;
+    background-image: url("../images/realisations/nautilus/nautilus-1.png");
+    z-index: 3; }
+
+@keyframes baseImgOne {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0); } }
+  #sequence li:first-of-type.seq-in .img2 {
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    animation: baseImgTwo 2s ease-out;
+    background-image: url("../images/realisations/nautilus/nautilus-2.png");
+    z-index: 2; }
+
+@keyframes baseImgTwo {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0); } }
+  #sequence li:first-of-type.seq-in .img3 {
+    animation-delay: 7s;
+    -webkit-animation-delay: 7s;
+    animation: baseImgThree 3s ease-out;
+    background-image: url("../images/realisations/nautilus/nautilus-3.png");
+    z-index: 1; }
+
+@keyframes baseImgThree {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0); } }
+  #sequence li:last-of-type .seq-model,
+  #sequence li:last-of-type .seq-title {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  #sequence li:last-of-type .seq-model {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    max-height: none;
+    z-index: 99; }
+    #sequence li:last-of-type .seq-model aside {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      background-image: url("../images/realisations/nautilus/nautilus-degrade.png");
+      background-size: cover;
+      z-index: 20; }
+      #sequence li:last-of-type .seq-model aside:before {
+        content: "";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100vw;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 33%);
+        display: flex; }
+    #sequence li:last-of-type .seq-model div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      max-height: 100%;
+      background-position: 0% 100%;
+      background-size: cover; }
+  #sequence li:last-of-type .seq-title {
+    z-index: 100;
+    width: 50vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column; }
+    #sequence li:last-of-type .seq-title h2 {
+      font-size: 2.5rem;
+      background: none;
+      margin: 0;
+      text-align: center;
+      text-shadow: 1px 1px 5px #000; }
+    #sequence li:last-of-type .seq-title h3:first-of-type {
+      font-size: 2rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 5px #000; }
+    #sequence li:last-of-type .seq-title h3:last-of-type {
+      font-size: 1.5rem !important;
+      color: #fff;
+      text-shadow: 1px 1px 5px #000; }
+    #sequence li:last-of-type .seq-title img {
+      margin: 0 auto; }
+  #sequence li:last-of-type:before {
+    content: none; }
+  #sequence li:last-of-type.seq-in .img1 {
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation: baseImgOne 2s ease-out;
+    background-image: url("../images/realisations/nautilus/nautilus-1.png");
+    z-index: 3; }
+
+@keyframes baseImgOne {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0); } }
+  #sequence li:last-of-type.seq-in .img2 {
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    animation: baseImgTwo 3s ease-out;
+    background-image: url("../images/realisations/nautilus/nautilus-2.png");
+    z-index: 2; }
+
+@keyframes baseImgTwo {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0); } }
+  #sequence li:last-of-type.seq-in .img3 {
+    animation-delay: 8s;
+    -webkit-animation-delay: 8s;
+    animation: baseImgThree 4s ease-out;
+    background-image: url("../images/realisations/nautilus/nautilus-3.png");
+    z-index: 1; }
+
+@keyframes baseImgThree {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0); } }
+  #sequence li.seq-out {
+    opacity: 0 !important; }
+  #sequence:before {
+    content: none; }
+  #sequence .seq-pagination {
+    z-index: 50;
+    bottom: 20px; }
+    #sequence .seq-pagination li a {
+      position: relative;
+      font-size: 1rem;
+      text-align: center;
+      height: 80px;
+      display: block; }
+    #sequence .seq-pagination li:nth-child(odd) a:after {
+      content: attr(title);
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      width: 100%; }
+    #sequence .seq-pagination li:nth-child(even) a:after {
+      content: attr(title);
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 100%; }
+  #sequence.indexSite .seq-title {
+    width: 100vw !important; }
